@@ -1,6 +1,6 @@
 # Metasploit Framework Installation Script for Termux
 
-![Metasploit Banner](images/banner.png)
+![Metasploit Banner](images/banner.jpg)
 
 ## Introduction
 
