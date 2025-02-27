@@ -25,7 +25,7 @@ function packages()
 {
   echo -e "\033[1;34m[*] \033[37mInstalling the requirements.\033[0m"
   pkgs="binutils python autoconf bison clang coreutils curl findutils apr apr-util postgresql openssl readline libffi libgmp libpcap libsqlite libgrpc libtool libxml2 libxslt ncurses make ncurses-utils ncurses git wget unzip zip tar termux-tools termux-elf-cleaner pkg-config git ruby"
-  for pkg in pkgs
+  for pkg in $pkgs
   do
     echo -e "\033[1;31m\$ \033[34mapt \033[35minstall \033[32m $pkg\033[0m"
     echo -n -e "\033[1;37m"
